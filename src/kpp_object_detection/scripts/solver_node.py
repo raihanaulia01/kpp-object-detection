@@ -24,7 +24,7 @@ class SolverNode:
         now = time.time()
         fps = 1.0 / max(now - self.last, 1e-6)
         self.last = now
-        cv2.putText(out, f"{fps:.1f} FPS", (10, 25),
+        cv2.putText(out, f"{fps:.1f} FPS", (frame.shape[:2][1] - 120, 25),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
 
         cv2.imshow(self.title, out)

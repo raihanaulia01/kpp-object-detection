@@ -1,0 +1,10 @@
+<launch>
+  <arg name="video" />
+  <node pkg="kpp_object_detection" type="video_publisher.py" name="video_publisher" output="screen">
+    <param name="video" value="$(arg video)" />
+  </node>
+  <node pkg="kpp_object_detection" type="solver_node.py" name="solver_node" output="screen">
+    <param name="solver" value="colorful" />
+  </node>
+</launch>
+
