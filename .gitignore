@@ -260,5 +260,6 @@ CATKIN_IGNORE
 # Project Specific
 *.mp4
 *.zip
+Hollow Knight.yolo26/
 
 # End of https://www.toptal.com/developers/gitignore/api/ros,cmake,python,visualstudiocode
