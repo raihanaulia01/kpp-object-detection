@@ -3,10 +3,10 @@ This was made to fullfill an intership assignment at Abinara-1 ITS Team, integra
 
 Each problem is a python module that exposes one function (`process(frame)`). A publisher node streams the frames of a video and a subscriber node runs the appropriate solver on every frame and displays the result.
 
-## Problems Overview
- # | Problem | Module | Method |
+## Problem Overview
+| # | Problem | Module | Method |
 |---|--------|--------|--------|
-| 1 | Where Are The Shapes? | `shapes.py` | Normallized distance from the background color, contours, and polygon approximation |
+| 1 | Where Are The Shapes? | `shapes.py` | Normalized distance from the background color, contours, and polygon approximation |
 | 2 | How Colorful? | `colorful.py` | 5 bit color quantization |
 | 3 | Locate It, Please. | `locate.py` | Brightness threshold and contours |
 | 4 | I Don't Think It's Reliable. | `reliable.py` | Threshold and morphological opening and closing |
